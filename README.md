@@ -10,7 +10,8 @@ folder 內的程式碼：
   - title: 文章標題
   - link: 文章連結
   - content: 文章內容
-  - comment: 文章留言    
+  - comment: 文章留言
+  
 目前已經確定可以成功爬 Dcard 上的文章，但是程式碼還必須儲存資料的編號、Dcard 文章的 tag，以方便日後進行資料清洗與爬蟲進度追蹤。  
 
 
