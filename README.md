@@ -16,4 +16,4 @@ folder 內的程式碼：
 
 # 2025/01/02 進度紀錄
 
-錯誤指令："urllib.error.URLError: <urlopen error [Errno 11002] getaddrinfo failed>" 代表被 Dcard 偵測到爬蟲，過幾分鐘再測試就可以將爬蟲程式碼運行起來  
+錯誤指令："urllib.error.URLError: <urlopen error [Errno 11002] getaddrinfo failed>" 代表被 Dcard 偵測到爬蟲，過10-20分鐘後再測試就可以將爬蟲程式碼運行起來  
