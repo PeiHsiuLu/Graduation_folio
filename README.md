@@ -22,7 +22,8 @@ folder 內的程式碼：
    目前尚未有好的解決方法，解法就是手動打勾勾：    
    ![image](https://github.com/user-attachments/assets/2eb12049-1c93-49d7-8875-756228441201)  
 2. Errno 11002  
-錯誤指令："urllib.error.URLError: <urlopen error [Errno 11002] getaddrinfo failed>" 代表被 Dcard 偵測到爬蟲，過10-20分鐘後再測試就可以將爬蟲程式碼運行起來，並不代表一定是程式碼有問題。    
+錯誤指令："urllib.error.URLError: <urlopen error [Errno 11002] getaddrinfo failed>" 代表被 Dcard 偵測到爬蟲，過10-20分鐘後再測試就可以將爬蟲程式碼運行起來，並不代表一定是程式碼有問題。
+  
 3.爬到文章時出現全白的畫面：
    目前尚未有好的解決方法，所以目前的解決方法是：
 - 手動向上滾動，讓頁面文章重新出現
