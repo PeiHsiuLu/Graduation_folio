@@ -15,7 +15,7 @@ folder 內的程式碼：
 目前已經確定可以成功爬取 Dcard 上的文章，但是程式碼還必須儲存資料的編號、Dcard 文章的 tag，以方便日後進行資料清洗與爬蟲進度追蹤。  
 
 # 2025/01/02 進度紀錄
-[20250103爬蟲程式碼與獲取資料](https://github.com/PeiHsiuLu/Graduation_folio/tree/main/20250102_crawler_record)  
+[20250102爬蟲程式碼與獲取資料](https://github.com/PeiHsiuLu/Graduation_folio/tree/main/20250102_crawler_record)  
 ## main.py 程式碼運行所需套件
 
 ### 外部 Python 套件
