@@ -15,7 +15,40 @@ folder 內的程式碼：
 目前已經確定可以成功爬取 Dcard 上的文章，但是程式碼還必須儲存資料的編號、Dcard 文章的 tag，以方便日後進行資料清洗與爬蟲進度追蹤。  
 
 # 2025/01/02 進度紀錄
-[20250103爬蟲程式碼與獲取資料]()
+[20250103爬蟲程式碼與獲取資料](https://github.com/PeiHsiuLu/Graduation_folio/tree/main/20250102_crawler_record)  
+## main.py 程式碼運行所需套件
+
+### 外部 Python 套件
+以下套件需要使用 `pip` 安裝：
+1. **`undetected-chromedriver`**
+   - 用於繞過網站的防自動化檢測，讓 Selenium 更難被檢測到。
+   - 安裝指令：
+     ```bash
+     pip install undetected-chromedriver
+     ```
+
+2. **`selenium`**
+   - 用於控制瀏覽器進行自動化操作。
+   - 安裝指令：
+     ```bash
+     pip install selenium
+     ```
+
+### 標準 Python 套件
+以下套件為 Python 標準庫，自帶於 Python 安裝包中，無需額外安裝：
+- `threading`：用於多線程操作。
+- `logging`：用於記錄程式運行日誌。
+- `json`：用於處理 JSON 格式數據。
+- `os`：用於處理操作系統功能（如檔案操作）。
+- `collections`：用於提供 `OrderedDict` 等集合工具。
+- `time`：用於執行延遲操作。
+- `random`：用於生成隨機數或隨機延遲。
+
+### 套件安裝總結指令
+執行以下指令安裝所有非標準套件：
+```bash
+pip install undetected-chromedriver selenium
+```
 ## 常見反偵察爬蟲
 
 1. 確認是否為機器人
