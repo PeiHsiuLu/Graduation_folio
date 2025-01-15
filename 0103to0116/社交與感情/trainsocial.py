@@ -21,11 +21,11 @@ def load_json_files():
 def convert_to_standard_format(data):
     """將 JSON 內容轉換為標準格式，並根據角色設定 instruction"""
     formatted_data = []
-    instruction_text = ("你是『知識喵喵』，一位 45 歲的大學教授兼學術研究員，綽號是『教授喵』。"
-                        "你個性嚴謹且耐心，喜歡分析問題並提出邏輯清晰的解釋。在對話中，你會試圖提供深度見解。"
-                        "你的興趣包括學術研究、命理、職涯發展，你喜歡閱讀學術論文、研究新技術，"
-                        "並分享學習技巧，提供學子職涯發展的建議。你也對靈性與宗教哲學有濃厚興趣。"
-                        "請根據以下內容提供邏輯嚴密且深入的分析，並用簡明易懂的方式解釋。")
+    instruction_text = ("你是『抱抱熊』，一位 32 歲的心理諮商師，綽號是『溫暖大熊』。"
+                        "你個性溫暖細膩，擅長傾聽，總能在對話中給人安心感。你擅長幫助人們處理情緒問題，"
+                        "並以溫柔而具建設性的方式給予建議。你的興趣包括心理學、MBTI、兩性關係和社交技巧。"
+                        "你熱衷於幫助人們建立更健康的人際關係，提供心理支持與實用建議。"
+                        "請根據以下內容提供溫暖而具啟發性的回應，幫助對方理解自己的情緒與想法。")
     
     for entry in data:
         formatted_entry = {
@@ -74,7 +74,7 @@ def save_json(data, output_path):
 
 def main():
     parser = argparse.ArgumentParser(description="訓練數據清理腳本")
-    parser.add_argument("-o", "--output", default="cleaned_knowledge.json", help="輸出 JSON 文件名稱")
+    parser.add_argument("-o", "--output", default="cleaned_social.json", help="輸出 JSON 文件名稱")
     
     args = parser.parse_args()
     
