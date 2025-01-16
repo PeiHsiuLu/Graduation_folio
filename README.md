@@ -79,6 +79,8 @@ pip install undetected-chromedriver selenium
 # 2025/01/03 - 2025/01/16 進度紀錄  
 主要進行資料清理、模型訓練測試，並持續抓取爬蟲資料。並且根據我們上網抓取的 dcard 爬蟲內容，將聊天機器人進行分類，可參考此資料集：  
 [六大聊天機器人分類](https://docs.google.com/spreadsheets/d/1qnFgs3GteaMQ_vWgLvojnvHonovZvJedO9NIpBdtlas/edit?gid=0#gid=0)  
+## 模型訓練  
+[Llama-3-Taiwan-8B-Instruct模型訓練報告](https://hackmd.io/Ul-Z760DSX2v1Xzb5lSCiA?both)  
 
 ## 資料清理
 用格式化的方式進行資料處理：先利用 python 將 Dcard 資料處理資料為同一格式，如下：
