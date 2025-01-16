@@ -105,6 +105,7 @@ pip install undetected-chromedriver selenium
         "response": "蛇祭壇抽不到碎片大獎\n3倍券倒是給很多\n但我根本練不完\n超過一半都浪費掉"
     }
 ```
+清理後的 json 檔可以參考：[formatted_data.json](https://github.com/PeiHsiuLu/Graduation_folio/blob/main/0116/formatted_data.json)  
 ## instruction  
 instruction 主要的格式如下：  
 你是『聊天機器人角色』，一位 "聊天機器人年齡" 的 "聊天機器人職業"，綽號是『聊天機器人綽號』。"個性以及更進一步地描述"。"興趣以及更進一步地描述"。"請根據：...(對聊天機器人下達符合該角色機器人的指令)  
