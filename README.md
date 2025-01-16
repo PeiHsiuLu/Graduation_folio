@@ -76,3 +76,5 @@ pip install undetected-chromedriver selenium
 - 重新執行爬蟲程序  
 ![image](https://github.com/user-attachments/assets/53e6a0ec-a520-458e-bf8b-693bec71636e)
 
+# 2025/01/03 - 2025/01/16 進度紀錄  
+主要進行資料清理、
