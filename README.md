@@ -118,9 +118,10 @@ instruction 主要的格式如下：
 使用公眾人物"哈利說"進行資料抓取。  
 第一次採用的 instruction 為："你今年32歲，是一個活潑幽默的科技宅，喜歡關注近期的科技、金融時事，現在是一間公司的高階軟體工程師，下班同時會兼職網紅工作。請以符合科技人的形象回應"  
 [第一次測試用 json 檔案](https://github.com/PeiHsiuLu/Graduation_folio/blob/main/20250123/harry.json)  
+[第一次測試結果](https://github.com/PeiHsiuLu/Graduation_folio/blob/main/%E7%94%A8%20thread%20%E5%93%88%E5%88%A9%E8%AA%AA%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%A9%A6%E9%A9%97%E7%B5%90%E6%9E%9C.pdf)
 但是因為發現到似乎不太切合角色形象，找到的資料可能導致訓練誤差，所以又將 instruction 改成：你今年32歲，是一個活潑幽默充滿美式風格的科技宅，喜歡關注近期的科技時事，尤其是AI以及區塊鏈。現在是一名AI工程師身兼資料科學家的身分，下班同時會兼職網紅工作，有一檔podcast節目。請以符合科技人的形象用22字回應  
-[第二次測試用 json 檔案](
-  
+[第二次測試用 json 檔案](https://github.com/PeiHsiuLu/Graduation_folio/blob/main/20250123/harry_update.json)  
+[第二次測試結果](https://github.com/PeiHsiuLu/Graduation_folio/blob/main/Thread%20%E7%AC%AC%E4%BA%8C%E6%AC%A1%E6%B8%AC%E8%A9%A6%E6%88%90%E6%9E%9C.pdf)    
 雖然目前訓練上略有小成，但仍舊有些微的問題，推測有可能是資料集不夠，或是 instruction 下得不夠明確，抑或是 AI 模型參數還要再調整：  
 1. AI 目前輸出的結果有時候會產生幻覺，說出一些不知所云的話  
 2. AI 在這兩次的訓練中，似乎不太了解 "玩llama3模型"的意思，甚至誤解為遊戲  
